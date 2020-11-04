@@ -1,13 +1,57 @@
+html,
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: white;
+  font-family: 'Open Sans',sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bottomNavbar {
+  background-color: #042482 !important;
+  height: 80px !important;
 }
+
+.MuiBottomNavigationAction-root {
+  color: #9ba4b4 !important;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+  color: white !important;
+}
+
+.landingContent {
+  position: relative !important;
+}
+
+.nav {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100vw !important;
+  padding: 0 !important;
+}
+
+.floatBtn {
+  position: relative !important;
+  bottom: 48px !important;
+  background: linear-gradient( -180deg, rgba(0,0,0,0) 48%, white 47% );
+  height: 100px !important;
+  width: 100px !important;
+  box-shadow: none !important;
+}
+
+.MuiFab-root{
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.MuiAvatar-root {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+
+
+/* .navLogo {
+  font-size: large !important;
+} */
