@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react'
+import { render } from 'react-dom'
 import { useTransition, animated } from 'react-spring'
+import '../layout/SplashScreenStyles.css'
 
 
 const SplashScreen = () => {
@@ -20,15 +22,15 @@ const SplashScreen = () => {
     ref.current.map(clearTimeout)
     ref.current = []
     set([])
-    ref.current.push(setTimeout(() => set(['Apples', 'Oranges', 'Kiwis']), 2000))
-    ref.current.push(setTimeout(() => set(['Apples', 'Kiwis']), 5000))
-    ref.current.push(setTimeout(() => set(['Apples', 'Bananas', 'Kiwis']), 8000))
+    ref.current.push(setTimeout(() => set(['Welcome To', 'IEEE MPSTME', 'Student Chapter']), 2000))
+    ref.current.push(setTimeout(() => set(['IEEE MPSTME']), 5000))
   }, [])
 
   useEffect(() => void reset(), [])
 
   return (
     <div>
+      <div class="splashscreenlogo"></div>
       {transitions.map(({ item, props: { innerHeight, ...rest }, key }) => (
         <animated.div className="transitions-item" key={key} style={rest} onClick={reset}>
           <animated.div style={{ overflow: 'hidden', height: innerHeight }}>{item}</animated.div>

@@ -12,7 +12,7 @@ export default function Projects() {
                         <h1>Projects</h1>
                     </Grid>
                     <Grid item xs={12} className="nav">
-                        <SimpleBottomNavigation />
+                        <SimpleBottomNavigation value="1"/>
                     </Grid>
                 </Grid>
             </div>

@@ -12,7 +12,7 @@ export default function Blogs() {
                         <h1>Blogs</h1>
                     </Grid>
                     <Grid item xs={12} className="nav">
-                        <SimpleBottomNavigation />
+                        <SimpleBottomNavigation value="2"/>
                     </Grid>
                 </Grid>
             </div>

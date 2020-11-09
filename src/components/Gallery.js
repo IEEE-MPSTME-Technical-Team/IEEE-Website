@@ -12,7 +12,7 @@ export default function Gallery() {
                         <h1>Gallery</h1>
                     </Grid>
                     <Grid item xs={12} className="nav">
-                        <SimpleBottomNavigation />
+                        <SimpleBottomNavigation value="4"/>
                     </Grid>
                 </Grid>
             </div>

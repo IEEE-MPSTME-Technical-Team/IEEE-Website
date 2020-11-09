@@ -6,6 +6,7 @@ import thunk from 'redux-thunk';
 import { Provider, useSelector } from 'react-redux';
 import rootReducer from './reducers/rootReducer'
 import { createStore, applyMiddleware, compose } from 'redux';
+import SplashScreen from './layout/SplashScreen';
 
 const store = createStore(rootReducer,
   compose(
@@ -15,7 +16,7 @@ const store = createStore(rootReducer,
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <SplashScreen/>
   </Provider>,
   document.getElementById('root')
 );
