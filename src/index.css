@@ -6,7 +6,7 @@ body {
   padding: 0;
   background-color: white;
   box-sizing: border-box;
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: 'Lexend Deca', sans-serif !important;
 }
 
 .bottomNavbar {
@@ -66,7 +66,6 @@ body {
 /* All for About Us */
 div .top{
   background-color: #1f6f8b;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 div .gap1 {
@@ -80,12 +79,10 @@ div .top h1{
 div .teamc{
   padding: 100px 0px 50px;
   background-color: #99a8b2 ;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div .teamh{
   padding: 100px 0px 50px;
   background-color: #1f6f8b ;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div .parallax-container{
   position: relative;
@@ -93,17 +90,14 @@ div .parallax-container{
 div .gap2{
   padding: 20px 50px;
   background-color: #99a8b2 ;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 div .section.white{
   padding: 0px 0px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 div .title{
   background-color: #99a8b2;
   padding: 50px 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
   
 
@@ -152,3 +146,4 @@ div .row{
 }
 
 
+/* new additions to About Us Page Styles */

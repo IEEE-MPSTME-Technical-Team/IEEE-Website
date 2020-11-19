@@ -3,56 +3,138 @@ import 'materialize-css/dist/css/materialize.min.css';
 import team from '../../img/About/team.png'
 import mission from '../../img/About/mission.png'
 import vision from '../../img/About/vision.png'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 
 const First = () => {
-    useEffect(() => {
-        Aos.init({ duration: 3000 });
-    }, []);
+    // useEffect(() => {
+    //     Aos.init({ duration: 3000 });
+    // }, []);
     return (
-        <div className="top">
-            <h1 data-aos="fade-down">About Us</h1>
-            <div class="row">
-                <div class="col s12 l4 push-l7 offset-l1" data-aos="fade-left" >
-                    <img src={team} alt="" class="responsive-img materialboxed" />
+//         <div classNameName="top">
+//             <h1 data-aos="fade-down">About Us</h1>
+//             <div className="row">
+//                 <div className="col s12 l4 push-l7 offset-l1" data-aos="fade-left" >
+//                     <img src={team} alt="" className="responsive-img materialboxed" />
+//                 </div>
+//                 <div className="col s12 l6 pull-l6 right-align offset-l1" data-aos="fade-right">
+//                     <h2 className="indigo-text text-darken-4">Our Team</h2>
+//                     <p>IEEE MPSTME, a student chapter of IEEE, formed by the
+//                     Undergraduates of MPSTME in 2017, is a student led organization that
+//                     strives to collaborate on world-changing technologies, from computing
+//                     and sustainable energy systems to aerospace, robotics, communication
+//                     and more. Over time it has grown into a community of more than 50
+//                     members all from different course streams. We at IEEE MPSTME believe
+//                     that there is a better way to share, gain and build up our knowledge about
+//                     the advancing technologies and the ways of a fast-moving and unstoppable generation.
+//                     </p>
+//                 </div>
+//             </div>
+//             <div className="row">
+//                 <div className="col s12 l4 push-l1" data-aos="fade-right">
+//                     <img src={mission} alt="" className="responsive-img materialboxed" />
+//                 </div>
+//                 <div className="col s12 l6 left-align push-l1 offset-l1" data-aos="fade-left">
+//                     <h2 className="indigo-text text-darken-4">Mission</h2>
+//                     <p>Our mission is to foster technological innovation and excellence for the
+// benefit of humanity.</p>
+//                 </div>
+//             </div>
+//             <div className="row">
+//                 <div className="col s12 l4 push-l7 offset-l1" data-aos="fade-left">
+//                     <img src={vision} alt="" className="responsive-img materialboxed" />
+//                 </div>
+//                 <div className="col s12 l6 pull-l6 right-align offset-l1" data-aos="fade-right">
+//                     <h2 className="indigo-text text-darken-4">Vision</h2>
+//                     <p>Our vision is to be essential to the global technical community and to
+//                     upcoming technical professionals everywhere and be recognized for the
+// contributions to technology.</p>
+//                 </div>
+//             </div>
+//         </div>
+            <div className="row why" id="whyEnrollar">
+                <div id="roll" className="col s10 offset-s1 l4" style={{"borderRadius":'24px'}}>
+                    <div className="card" style={{"borderRadius":"24px"}}>
+                        <div className="card-image waves-effect waves-block waves-light"
+                        style={{"borderRadius":"24px 24px 0 0"}}
+                        >
+                        <img className="activator" src={ team } alt="cover"/>
+                        </div>
+                        <div className="card-content">
+                        <span className="card-title activator grey-text text-darken-4">
+                            About Us?
+                            <i className="material-icons right">more_vert</i></span>
+                        <p>Click to find out.</p>
+                        </div>
+                        <div className="card-reveal" style={{"backgroundColor":"#2a9d8f","color":"white"}}>
+                        <span className="card-title white-text text-darken-4">
+                            About Us?
+                            <i className="material-icons right">close</i>
+                        </span>
+                        <p>
+                            IEEE MPSTME, a student chapter of IEEE, formed by the
+                            Undergraduates of MPSTME in 2017, is a student led organization that
+                            strives to collaborate on world-changing technologies, from computing
+                            and sustainable energy systems to aerospace, robotics, communication
+                            and more. Over time it has grown into a community of more than 50
+                            members all from different course streams. We at IEEE MPSTME believe
+                            that there is a better way to share, gain and build up our knowledge about
+                            the advancing technologies and the ways of a fast-moving and unstoppable generation.
+                        </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col s12 l6 pull-l6 right-align offset-l1" data-aos="fade-right">
-                    <h2 class="indigo-text text-darken-4">Our Team</h2>
-                    <p>IEEE MPSTME, a student chapter of IEEE, formed by the
-                    Undergraduates of MPSTME in 2017, is a student led organization that
-                    strives to collaborate on world-changing technologies, from computing
-                    and sustainable energy systems to aerospace, robotics, communication
-                    and more. Over time it has grown into a community of more than 50
-                    members all from different course streams. We at IEEE MPSTME believe
-                    that there is a better way to share, gain and build up our knowledge about
-                    the advancing technologies and the ways of a fast-moving and unstoppable
-generation.</p>
+                <div id="roll" className="col s10 offset-s1 l4" style={{"borderRadius":'24px'}}>
+                    <div className="card" style={{"borderRadius":"24px"}}>
+                        <div className="card-image waves-effect waves-block waves-light"
+                        style={{"borderRadius":"24px 24px 0 0"}}
+                        >
+                        <img className="activator" src={ vision } alt="cover"/>
+                        </div>
+                        <div className="card-content">
+                        <span className="card-title activator grey-text text-darken-4">
+                            Vision
+                            <i className="material-icons right">more_vert</i></span>
+                        <p>Click to find out.</p>
+                        </div>
+                        <div className="card-reveal" style={{"backgroundColor":"#2a9d8f","color":"white"}}>
+                        <span className="card-title white-text text-darken-4">
+                            Vision
+                            <i className="material-icons right">close</i>
+                        </span>
+                        <p>
+                            Our vision is to be essential to the global technical community and to
+                            upcoming technical professionals everywhere and be recognized for the
+                            contributions to technology.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="roll" className="col s10 offset-s1 l4" style={{"borderRadius":'24px'}}>
+                    <div className="card" style={{"borderRadius":"24px"}}>
+                        <div className="card-image waves-effect waves-block waves-light"
+                        style={{"borderRadius":"24px 24px 0 0"}}
+                        >
+                        <img className="activator" src={ mission } alt="cover"/>
+                        </div>
+                        <div className="card-content">
+                        <span className="card-title activator grey-text text-darken-4">
+                            Mission
+                            <i className="material-icons right">more_vert</i></span>
+                        <p>Click to find out.</p>
+                        </div>
+                        <div className="card-reveal" style={{"backgroundColor":"#2a9d8f","color":"white"}}>
+                        <span className="card-title white-text text-darken-4">
+                            Mission
+                            <i className="material-icons right">close</i>
+                        </span>
+                        <p>
+                            Our mission is to foster technological innovation and excellence for the benefit of humanity
+                        </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12 l4 push-l1" data-aos="fade-right">
-                    <img src={mission} alt="" class="responsive-img materialboxed" />
-                </div>
-                <div class="col s12 l6 left-align push-l1 offset-l1" data-aos="fade-left">
-                    <h2 class="indigo-text text-darken-4">Mission</h2>
-                    <p>Our mission is to foster technological innovation and excellence for the
-benefit of humanity.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 l4 push-l7 offset-l1" data-aos="fade-left">
-                    <img src={vision} alt="" class="responsive-img materialboxed" />
-                </div>
-                <div class="col s12 l6 pull-l6 right-align offset-l1" data-aos="fade-right">
-                    <h2 class="indigo-text text-darken-4">Vision</h2>
-                    <p>Our vision is to be essential to the global technical community and to
-                    upcoming technical professionals everywhere and be recognized for the
-contributions to technology.</p>
-                </div>
-            </div>
-        </div>
-
     )
 }
 export default First
