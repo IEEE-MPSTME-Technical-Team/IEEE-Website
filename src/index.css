@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  box-sizing: border-box;
   font-family: 'Open Sans',sans-serif !important;
 }
 
@@ -55,3 +56,8 @@ body {
 /* .navLogo {
   font-size: large !important;
 } */
+
+.mainLand div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3{
+  width: 100%;
+  margin: 0;
+}
