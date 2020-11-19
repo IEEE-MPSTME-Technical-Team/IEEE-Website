@@ -1,10 +1,6 @@
 import React from 'react'
-import SimpleBottomNavigation from '../layout/bottomNav';
-import Grid from '@material-ui/core/Grid';
-import AboutComponent from '../components/About/About';
-import Carousel from '../components/About/Carousel';
+// import SimpleBottomNavigation from '../layout/bottomNav';
 import 'materialize-css/dist/css/materialize.min.css';
-import First from '../components/About/First';
 import AboutMain from '../components/About/AboutMain';
 
 
@@ -35,7 +31,9 @@ const About = () => {
         //         </Grid>
         //     </div>
         // </div>
-        <AboutMain />
+        <>
+            <AboutMain />
+        </>
     )
 }
 

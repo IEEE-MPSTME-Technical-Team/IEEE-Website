@@ -1,10 +1,9 @@
-import React, {useEffect} from 'react'
-import GridsC from './GridsC'
-import GridsH from './GridsH'
-import Parallax1 from './Parallax1'
-import Parallax2 from './Parallax2'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React, {useEffect} from 'react';
+import GridsC from './GridsC';
+import GridsH from './GridsH';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import Carousel from './Carousel';
 
 
 
@@ -13,19 +12,91 @@ const AboutComponent = () => {
         Aos.init({duration: 3000});
     }, []);
     return(
-        <div className="">
-        
-            <Parallax1 />
-            
-            <div className=" grid1 section white"><GridsC /></div>
-            <div className="gap2">
-                <p className="center" data-aos="zoom-in"><b>Something about our team</b></p>
-                <p className="container center" data-aos="zoom-in">We offer technology as a solution, the best there is.</p>
+        <>
+            {/* core members */}
+            <div className="row">
+                <div className="col s12" style={{borderRadius:"24px"}}>
+                    <div className="card-panel teal" style={{borderRadius:"24px 24px 0 0"}}>
+                        <span className="white-text">
+                            <h4>Our Core Members</h4>
+                        </span>
+                    </div>
+                    <GridsC />
+                    <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
+                    </div>
+                </div>
             </div>
-            <Parallax2 />
 
-            <div className=" grid2 section white"><GridsH /></div>
-        </div>
+            {/* head members */}
+            <div className="row">
+                <div className="col s12" style={{borderRadius:"24px"}}>
+                    <div className="card-panel teal" style={{borderRadius:"24px 24px 0 0"}}>
+                        <span className="white-text">
+                            <h4>Our Heads</h4>
+                        </span>
+                    </div>
+                    <GridsH />
+                    <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
+                    </div>
+                </div>
+            </div>
+
+            {/* Technical Department */}
+            <div className="row">
+                <div className="col s12" style={{borderRadius:"24px"}}>
+                    <div className="card-panel teal" style={{borderRadius:"24px 24px 0 0"}}>
+                        <span className="white-text">
+                            <h4>Technical Department</h4>
+                        </span>
+                    </div>
+                    <Carousel />
+                    <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
+                    </div>
+                </div>
+            </div>
+
+            {/* Public Relations Department */}
+            <div className="row">
+                <div className="col s12" style={{borderRadius:"24px"}}>
+                    <div className="card-panel teal" style={{borderRadius:"24px 24px 0 0"}}>
+                        <span className="white-text">
+                            <h4>Public Relations Department</h4>
+                        </span>
+                    </div>
+                    <Carousel />
+                    <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
+                    </div>
+                </div>
+            </div>
+
+            {/* Digital Creatives Department */}
+            <div className="row">
+                <div className="col s12" style={{borderRadius:"24px"}}>
+                    <div className="card-panel teal" style={{borderRadius:"24px 24px 0 0"}}>
+                        <span className="white-text">
+                            <h4>Digital Creatives Department</h4>
+                        </span>
+                    </div>
+                    <Carousel />
+                    <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
+                    </div>
+                </div>
+            </div>
+
+            {/* Corporate Relations Department */}
+            <div className="row">
+                <div className="col s12" style={{borderRadius:"24px"}}>
+                    <div className="card-panel teal" style={{borderRadius:"24px 24px 0 0"}}>
+                        <span className="white-text">
+                            <h4>Corporate Relations Department</h4>
+                        </span>
+                    </div>
+                    <Carousel />
+                    <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
+                    </div>
+                </div>
+            </div>
+        </>
     )    
 }
 export default AboutComponent

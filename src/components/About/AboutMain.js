@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "./GridContainer";
 import GridItem from "./GridItem";
-// import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "./ParallaxMain";
 
 import logo from '../../img/IEEElogo.png';
@@ -14,12 +13,10 @@ import logo from '../../img/IEEElogo.png';
 
 
 import styles from "../../assets/jss/material-kit-react/views/profilePage";
-// import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
-// import TeamSection from './Sections/TeamSection.js';
-
-
-import First from './First'
+// different components
+import First from './First';
+import AboutTeam from './About';
 
 const useStyles = makeStyles(styles);
 
@@ -52,10 +49,11 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                Your Motto.{" "}
+              We offer technology as a solution, the best there is.{" "}
               </p>
             </div>
             <First />
+            <AboutTeam />
           </div>
         </div>
       </div>
