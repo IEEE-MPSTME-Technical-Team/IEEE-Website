@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
-  font-family: 'Open Sans',sans-serif !important;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif !important;
 }
 
 .bottomNavbar {
@@ -55,3 +56,48 @@ body {
 /* .navLogo {
   font-size: large !important;
 } */
+
+.mainLand div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3{
+  width: 100%;
+  margin: 0;
+}
+
+
+/* All for About Us */
+/* div .top{
+  background-color: #1f6f8b;
+}
+
+div .gap1 {
+  bottom: 0px;
+  margin: 0px auto;
+  padding: 20px 50px;
+}
+div .top h1{
+  margin: auto 100px;
+}
+
+div .parallax-container{
+  position: relative;
+}
+div .gap2{
+  padding: 20px 50px;
+  background-color: #99a8b2 ;
+}
+
+div .section.white{
+  padding: 0px 0px;
+}
+div .title{
+  background-color: #99a8b2;
+  padding: 50px 50px;
+}
+  
+
+div .row{
+  margin: 0px 0px;
+  padding: 50px 50px;
+} */
+
+
+/* new additions to About Us Page Styles */
