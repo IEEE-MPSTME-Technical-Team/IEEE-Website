@@ -1,12 +1,12 @@
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-import LandingPage from './components/LandingPage'
+import LandingPage from './views/LandingPage'
 import SplashScreen from './layout/SplashScreen'
-import About from './components/About'
-import Projects from './components/Projects'
-import Blogs from './components/Blogs'
-import Events from './components/Events'
-import Gallery from './components/Gallery'
-import ContactUs from './components/Contact'
+import About from './views/About'
+import Projects from './views/Projects'
+import Blogs from './views/Blogs'
+import Events from './views/Events'
+import Gallery from './views/Gallery'
+import ContactUs from './views/Contact'
 
 const App = (props) => {
   return (

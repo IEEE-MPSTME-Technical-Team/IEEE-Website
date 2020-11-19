@@ -61,3 +61,94 @@ body {
   width: 100%;
   margin: 0;
 }
+
+
+/* All for About Us */
+div .top{
+  background-color: #1f6f8b;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div .gap1 {
+  bottom: 0px;
+  margin: 0px auto;
+  padding: 20px 50px;
+}
+div .top h1{
+  margin: auto 100px;
+}
+div .teamc{
+  padding: 100px 0px 50px;
+  background-color: #99a8b2 ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div .teamh{
+  padding: 100px 0px 50px;
+  background-color: #1f6f8b ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div .parallax-container{
+  position: relative;
+}
+div .gap2{
+  padding: 20px 50px;
+  background-color: #99a8b2 ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div .section.white{
+  padding: 0px 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div .title{
+  background-color: #99a8b2;
+  padding: 50px 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+
+div .row{
+  margin: 0px 0px;
+  padding: 50px 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
