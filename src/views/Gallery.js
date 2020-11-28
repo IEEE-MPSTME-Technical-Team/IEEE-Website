@@ -1,6 +1,7 @@
 import React from 'react'
 import SimpleBottomNavigation from '../layout/bottomNav'
 import Grid from '@material-ui/core/Grid';
+import GalleryMain from '../components/Gallery/GalleryMain'
 
 export default function Gallery() {
     return (
@@ -8,8 +9,7 @@ export default function Gallery() {
             <div className="mainLand">
                 <Grid container spacing={3}>
                     <Grid item xs={12} className="landingContent">
-                        {/*ADD STUFF IN HERE*/}
-                        <h1>Gallery</h1>
+                        <GalleryMain className="MainGallery"/>
                     </Grid>
                     <Grid item xs={12} className="nav">
                         <SimpleBottomNavigation />
