@@ -7,7 +7,7 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import logo from '../img/IEEElogo.png'
 import mpstme from '../img/LandingPage/mpstme4.PNG'
-import mpstme2 from '../img/LandingPage/mpstme2.jpg'
+import mpstme2 from '../img/LandingPage/mpstme2.png'
 import mpstme3 from '../img/LandingPage/nmims.jpg'
 import mpstme4 from '../img/LandingPage/mpstme3.jpg'
 import ParallaxCard from '../components/LandingPage/ParallaxCard';
