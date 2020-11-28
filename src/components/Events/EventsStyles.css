@@ -122,7 +122,6 @@
 }
 
 .flex__item {
-	height: 50vh;
 	color: #fff;
 	transition: transform 0.1s linear;
 }
@@ -153,7 +152,7 @@
 	opacity: 0;
 	height: max-content;
 	position: relative;
-	bottom: 30vh;
+	bottom: 10vh;
 }
 
 .flex--preStart .flex__item--left,

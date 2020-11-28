@@ -13,7 +13,7 @@ class Dashboard extends Component {
             position: "absolute",
             width: "100%",
             left: "50%",
-            height: "100%",
+            height: "60%",
             objectFit: "cover",
             transform: "translate(-50%, -50%)",
             zIndex: "-1"
