@@ -1,0 +1,93 @@
+
+.c {
+    max-width: 70vh;
+    width: 68vh;
+    height: 20vh;
+    max-height: 18vh;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+  }
+  
+  .back {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\isha.PNG);
+  }
+  
+  .front {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\IshaEmail.PNG);
+  }
+  
+  .OuterCard{
+    padding: 65px;
+    margin-top: 30px;
+    margin-left: -20px;
+    max-width: 70vh;
+    max-height: 10vh;
+    border-radius: 10px;
+  }
+
+  .AinalFront,
+  .AinalBack {
+    background-size: cover;
+  }
+  .AinalBack{
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\AinalSir3.PNG);
+  }
+
+  .AinalFront {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\AinalEmail.PNG);
+  }
+
+  .VinodFront,
+  .VinodBack {
+    background-size: cover;
+  }
+  .VinodBack{
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\VinodSir.PNG);
+  }
+
+  .VinodFront {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\VinodEmail.PNG);
+  }
+
+  .NavinFront,
+  .NavinBack {
+    background-size: cover;
+  }
+  .NavinBack{
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\Navin.PNG);
+  }
+
+  .NavinFront {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\NavinEmail.PNG);
+  }
+
+  .NiraliFront,
+  .NiraliBack {
+    background-size: cover;
+  }
+  .NiraliBack{
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\Nirali.PNG);
+  }
+
+  .NiraliFront {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\NiraliEmail.PNG);
+  }
+
+  .NishantFront,
+  .NishantBack {
+    background-size: cover;
+  }
+  .NishantBack{
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\Nishant.PNG);
+  }
+
+  .NishantFront {
+    background-image: url(C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\ContactUs\NishantEmail.PNG);
+  }
