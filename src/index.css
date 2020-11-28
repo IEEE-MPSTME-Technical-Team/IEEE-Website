@@ -161,3 +161,7 @@ div .row{
 .awssld__bullets {
   background-color: lightsteelblue;
 }
+
+awssld__container {
+  height: 100vh;
+}

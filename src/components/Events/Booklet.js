@@ -1,6 +1,11 @@
 import Booklet from "booklet-react-component";
 // import "./booklet.css";
 import React, { useState, Component } from "react";
+import event1 from '../../img/Events/AI&MLmain.jpg'
+import event2 from '../../img/Events/AI&MLday1.jpg'
+import event3 from '../../img/Events/AI&MLday2.jpg'
+import event4 from '../../img/Events/AI&MLday3.jpg'
+
 
 class UsingBookletComponent extends Component {
   constructor() {
@@ -39,13 +44,13 @@ class UsingBookletComponent extends Component {
           nextPage={this.genNextPages}
           prevPage={this.genPrevPages}
           pages={[
-            <div> Ele 0</div>,
-            <div> Ele 1</div>,
-            <div> Ele 2</div>,
-            <div> Ele 3</div>,
-            <div> Ele 4</div>,
-            <div> Ele 5</div>,
-            <div> Ele 6</div>
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event1} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event2} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event3} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event4} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event1} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event2} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
+            <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event3} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>
           ]}
         />
 
