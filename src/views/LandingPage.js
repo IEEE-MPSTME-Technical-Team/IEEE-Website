@@ -11,6 +11,10 @@ import mpstme2 from '../img/LandingPage/mpstme2.jpg'
 import mpstme3 from '../img/LandingPage/nmims.jpg'
 import mpstme4 from '../img/LandingPage/mpstme3.jpg'
 import ParallaxCard from '../components/LandingPage/ParallaxCard';
+import { Player } from 'video-react';
+import VideoBg from "reactjs-videobg";
+import headvideo from '../img/LandingPage/LandingVideo.mp4'
+import poster from '../img/LandingPage/headimage.png'
 
 
 
@@ -22,20 +26,32 @@ const LandingPage = () => {
                 <Grid container spacing={40}>
                     <Grid item xs={12} className="landingContent">
                         <AwesomeSlider className="mainpageslider" style={{ height: "95vh" }} animation="cubeAnimation">
-                                <div data-src={mpstme} />
-                                <div data-src={mpstme2} />
-                                <div data-src={mpstme3} />
-                                <div data-src={mpstme4} />
+                            <div data-src={mpstme} />
+                            <div data-src={mpstme2} />
+                            <div data-src={mpstme3} />
+                            <div data-src={mpstme4} />
                         </AwesomeSlider>
                     </Grid>
                     <Grid item xs={12} >
-
+                        <video className='videoTag' autoPlay loop muted style={{
+                            position: "absolute",
+                            width: "100%",
+                            left: "50%",
+                            height: "100%",
+                            objectFit: "cover",
+                            top: "150%",
+                            transform: "translate(-50%, -50%)",
+                            zIndex: "-1",
+                        }}>
+                            <source src={headvideo} type='video/mp4' />
+                        </video>
                     </Grid>
                     <Grid item xs={12} className="nav">
                         <SimpleBottomNavigation />
                     </Grid>
                 </Grid>
             </div>
+
         </div>
     )
 }
