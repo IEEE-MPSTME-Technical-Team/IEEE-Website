@@ -148,3 +148,7 @@ div .row{
   height: 300px;
   background: url(./img/ContactUs/logovideo.gif) no-repeat center center; 
 }
+
+.image-gallery-content{
+  padding-bottom: 10vh;
+}
