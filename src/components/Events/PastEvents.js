@@ -37,7 +37,7 @@ function PastEvents() {
   })
   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
   return (
-    <div id="eve" className="pokemon__img">
+    <div id="eve" className="pokemon__img Events__img">
       {
         props.map(({ x, y, rot, scale }, i) => (
           <animated.div className="events" key={i} style={{ transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>

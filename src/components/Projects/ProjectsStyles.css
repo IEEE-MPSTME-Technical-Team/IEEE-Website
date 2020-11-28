@@ -215,7 +215,7 @@
 	transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s;
 }
 
-.pokemon__img {
+.Projects__img {
 	position: absolute;
 	bottom: 20px;
 	right: 15%;

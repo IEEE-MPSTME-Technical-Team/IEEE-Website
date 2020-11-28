@@ -39,7 +39,7 @@ export default function UpComingEvents() {
   })
   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
   return (
-    <div id="eve" className="pokemon__img">
+    <div id="eve" className="pokemon__img Events__img">
     {props.map(({ x, y, rot, scale }, i) => (
       <animated.div className="events" key={i} style={{ transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>
         {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}

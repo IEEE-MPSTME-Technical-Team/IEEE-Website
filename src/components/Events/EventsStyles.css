@@ -153,6 +153,7 @@
 	opacity: 0;
 	height: max-content;
 	position: relative;
+	bottom: 30vh;
 }
 
 .flex--preStart .flex__item--left,
@@ -220,7 +221,7 @@
 	transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s;
 }
 
-.pokemon__img {
+.Events__img {
 	/* position: absolute;
 	bottom: 20px;
 	right: 15%; */
