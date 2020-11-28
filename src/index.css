@@ -12,6 +12,7 @@ body {
 .bottomNavbar {
   background-color: #042482 !important;
   height: 80px !important;
+  width: 100%;
 }
 
 .MuiBottomNavigationAction-root {
@@ -22,15 +23,17 @@ body {
   color: white !important;
 }
 
+
 .landingContent {
   position: relative !important;
 }
 
 .nav {
-  position: absolute !important;
+  position: fixed !important;
   bottom: 0 !important;
   width: 100vw !important;
   padding: 0 !important;
+  z-index: 100;
 }
 
 .floatBtn {

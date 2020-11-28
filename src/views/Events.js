@@ -1,6 +1,7 @@
 import React from 'react'
 import SimpleBottomNavigation from '../layout/bottomNav'
 import Grid from '@material-ui/core/Grid';
+import EventMain from '../components/Events/EventsMain'
 
 export default function Events() {
     return (
@@ -8,8 +9,7 @@ export default function Events() {
             <div className="mainLand">
                 <Grid container spacing={3}>
                     <Grid item xs={12} className="landingContent">
-                        {/*ADD STUFF IN HERE*/}
-                        <h1>Events</h1>
+                        <EventMain/>
                     </Grid>
                     <Grid item xs={12} className="nav">
                         <SimpleBottomNavigation />
