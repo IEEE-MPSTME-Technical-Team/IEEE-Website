@@ -16,7 +16,8 @@ class Dashboard extends Component {
             height: "60%",
             objectFit: "cover",
             transform: "translate(-50%, -50%)",
-            zIndex: "-1"
+            zIndex: "-1",
+            backgroundColor: "transparent"
           }}>
             <source src={headvideo} type='video/mp4' />
           </video>

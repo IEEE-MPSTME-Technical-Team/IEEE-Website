@@ -65,7 +65,7 @@ class Forms extends Component {
               </div>
               <div className="form-group">
                 <label htmlFor="message">Message</label>
-                <textarea className="form-control" cols="50" rows="100" placeholder="Your massage" name="message" />
+                <textarea className="form-control" cols="50" rows="100" placeholder="Your message" name="message" />
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>

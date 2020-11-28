@@ -4,7 +4,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: transparent;
   box-sizing: border-box;
   font-family: 'Lexend Deca', sans-serif !important;
 }
@@ -133,6 +133,7 @@ div .row{
 
 #videotag-container{
   margin-right: 500px;
+  z-index:-1;
 }
 
 #card{
