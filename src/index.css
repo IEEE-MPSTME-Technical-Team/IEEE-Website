@@ -153,3 +153,11 @@ div .row{
 .image-gallery-content{
   padding-bottom: 10vh;
 }
+
+.awssld__content {
+  height: 100vh;
+}
+
+.awssld__bullets {
+  background-color: lightsteelblue;
+}

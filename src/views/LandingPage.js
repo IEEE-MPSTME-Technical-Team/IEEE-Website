@@ -39,7 +39,7 @@ const LandingPage = () => {
                             left: "50%",
                             height: "100%",
                             objectFit: "cover",
-                            top: "150%",
+                            top: "150vh",
                             transform: "translate(-50%, -50%)",
                             zIndex: "-1",
                         }}>
