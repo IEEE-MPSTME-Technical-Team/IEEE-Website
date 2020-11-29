@@ -12,10 +12,10 @@ import mpstme3 from '../img/LandingPage/nmims.jpg'
 import mpstme4 from '../img/LandingPage/mpstme3.jpg'
 import ParallaxCard from '../components/LandingPage/ParallaxCard';
 import { Player } from 'video-react';
-import VideoBg from "reactjs-videobg";
 import headvideo from '../img/LandingPage/LandingVideo.mp4'
 import poster from '../img/LandingPage/headimage.png'
-
+import Vision from '../components/LandingPage/VisionParallax'
+import Vision2 from '../components/LandingPage/VisionParallax2'
 
 
 const LandingPage = () => {
@@ -33,18 +33,40 @@ const LandingPage = () => {
                         </AwesomeSlider>
                     </Grid>
                     <Grid item xs={12} >
-                        <video className='videoTag' autoPlay loop muted style={{
-                            position: "absolute",
-                            width: "100%",
-                            left: "50%",
-                            height: "100%",
-                            objectFit: "cover",
-                            top: "150vh",
-                            transform: "translate(-50%, -50%)",
-                            zIndex: "-1",
-                        }}>
-                            <source src={headvideo} type='video/mp4' />
-                        </video>
+                        <div>
+                            <div className="LandingVideo">
+                                <video className='videoTag' autoPlay loop muted style={{
+                                    position: "absolute",
+                                    width: "100%",
+                                    left: "50%",
+                                    height: "100%",
+                                    objectFit: "cover",
+                                    top: "150vh",
+                                    transform: "translate(-50%, -50%)",
+                                    zIndex: "-1",
+                                }}>
+                                    <source src={headvideo} type='video/mp4' />
+                                </video>
+                            </div>
+                            <div className="Vision">
+                                {/*<Grid container spacing={1}>
+                                    <Grid item xs={6}>
+                                        <Vision></Vision>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                    <Vision2></Vision2>
+                                    </Grid>
+                                </Grid>*/}
+                                <div className="row">
+                                    <div className="col s12 m6">
+                                        <Vision></Vision>
+                                    </div>
+                                    <div className="col s12 m6">
+                                        <Vision2></Vision2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </Grid>
                     <Grid item xs={12} className="nav">
                         <SimpleBottomNavigation />
