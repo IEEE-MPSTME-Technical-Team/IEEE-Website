@@ -30,34 +30,6 @@ function EventsMain({ compeleted, ongoing }) {
     return (
         <>
             <div className="slider__warpper">
-                {/* <div className="flex__container flex--dialga flex--active" data-slide="1" style={{ overflowX: "hidden" }}>
-                    <div className="flex__item flex__item--left Projects_Left">
-                    <div className="flex__content">
-                        <p className="text--sub">IEEE MPSTME</p>
-                        <h1 className="text--big">Ongoing Projects</h1>
-                        <p className="text--normal">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                    </div>
-                    <p className="text__background">Ongoing</p>
-                    </div>
-                    <div className="flex__item flex__item--right Projects_Right"></div>
-                    <UpComingEvents ongoing={ongoing}/>
-                </div>
-                <div className="flex__container flex--zekrom animate--start" data-slide="2" style={{ overflowX: "hidden" }}>
-                    <div className="flex__item flex__item--left Projects_Left">
-                        <div className="flex__content">
-                        <p className="text--sub">IEEE MPSTME</p>
-                        <h1 className="text--big">Completed Projects</h1>
-                        <p className="text--normal">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                    </div>
-                    <p className="text__background">Completed</p>
-                    </div>
-                    <div className="flex__item flex__item--right Projects_Right"></div>
-                        <PastEvents completed={compeleted}/>
-                </div> */}
                 <div className="flex__container flex--dialga flex--pikachu flex--active" data-slide="1" style={{overflowX:"hidden"}}>
                     <div className="flex__item flex__item--left Events_Left Projects_Left">
                         <div className="flex__content">
