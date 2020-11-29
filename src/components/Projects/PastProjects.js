@@ -1,15 +1,8 @@
-import { render } from 'react-dom'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useSprings, animated, interpolate } from 'react-spring'
 import { useDrag } from 'react-use-gesture'
 import './ProjectsStyles.css'
 
-const cards = [
-  'https://instagram.famd1-2.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/121396613_804714423675473_6883401838487330113_n.jpg?_nc_ht=instagram.famd1-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=G7RoRqz4KPYAX-GImmc&_nc_tp=15&oh=41b5513c6ed29840a988802583651267&oe=5FCBDB55',
-    'https://instagram.famd1-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120998930_343628286946121_6114188808468902657_n.jpg?_nc_ht=instagram.famd1-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=5Zrz5W4E1D0AX-IHFEb&_nc_tp=24&oh=49190be7a60ad070be1f72ae7b9f987d&oe=5FCAF5F9',
-    'https://instagram.famd1-2.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/121010139_2780723878869799_6291524711352072867_n.jpg?_nc_ht=instagram.famd1-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Qq_fZT8CnTcAX_VYqIR&_nc_tp=15&oh=31dcfcd2b7f717bf0d054ee771d6c374&oe=5FCC5F55',
-    'https://instagram.famd1-3.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/121067288_1019029438568106_5695414758169397937_n.jpg?_nc_ht=instagram.famd1-3.fna.fbcdn.net&_nc_cat=106&_nc_ohc=i0U95Pbyg24AX-j1m9g&_nc_tp=15&oh=5b523a4619c4c0dabb37e49d1aa2b6ee&oe=5FCCB68E'
-]
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css
 const to = i => ({ x: 0, y: i * -4, scale: 1, rot: -10 + Math.random() * 20, delay: i * 100 })
@@ -18,6 +11,16 @@ const from = i => ({ x: 0, rot: 0, scale: 1.5, y: -1000 })
 const trans = (r, s) => `perspective(1500px) rotateX(30deg) rotateY(${r / 10}deg) rotateZ(${r}deg) scale(${s})`
 
 function PastEvents({ completed }) {
+  const [index, setIndex] = useState(null)
+  useEffect(()=>{
+    window.$(document).ready(function(){
+      window.$('#modal2').modal();
+      window.$('.pevent').click(function(){
+        setIndex(window.$('.pevent').index(this));
+        window.$('#modal2').modal('open');
+      })
+    });
+  })
   const [gone] = useState(() => new Set()) // The set flags all the cards that are flicked out
   const [props, set] = useSprings(completed.length, i => ({ ...to(i), from: from(i) })) // Create a bunch of springs using the helpers above
   // Create a gesture, we're interested in down-state, delta (current-pos - click-pos), direction and velocity
@@ -37,16 +40,39 @@ function PastEvents({ completed }) {
   })
   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
   return (
+    <>
     <div id="pro" className="pokemon__img">
       {
         props.map(({ x, y, rot, scale }, i) => (
-          <animated.div className="events" key={i} style={{ transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>
+          <animated.div className="events pevent" key={i} style={{ transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>
             {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
             <animated.div className="childEvents" {...bind(i)} style={{ transform: interpolate([rot, scale], trans), backgroundImage: `url(${completed[i].Image})` }} />
           </animated.div>
         ))
       }
     </div>
+    <div id="modal2" className="modal">
+        <div className="modal-content black-text">
+          {
+            completed.length !== 0 && index !== null ? (
+              <>
+                <h4 className="black-text">{completed[index].Name}</h4>
+                <p className="black-text">{completed[index].About}</p>
+                <img src={completed[index].Image} alt="Cover" style={{width: "100%", height: "auto", borderRadius: "12px"}}/>
+              </>
+            ) : <p>Loading...</p>
+          }
+        </div>
+        {
+            completed.length !== 0 && index !== null ? (
+              <div className="modal-footer">
+                <a href={completed[index].Repo} target="__blank" className="modal-close btn-flat">Repository</a>
+              </div>
+            ) : null
+          }
+        
+    </div>
+    </>
   )
 }
 export default PastEvents; 
