@@ -155,6 +155,11 @@
 	bottom: 10vh;
 }
 
+.projects_pro #pro{
+	left: 0;
+	bottom: 50px;
+}
+
 .flex--preStart .flex__item--left,
 .flex--preStart .flex__item--right,
 .flex--active .flex__item--left,
