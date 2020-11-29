@@ -6,8 +6,8 @@ import './VisionParallax.css'
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
 const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
-function Card() {
-  const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 2, tension: 200, friction: 40 } }))
+function VisionCard() {
+  const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 200, friction: 40 } }))
   return (
     <animated.div
       class="card Vision2"
@@ -21,4 +21,4 @@ function Card() {
   )
 }
 
-export default Card
+export default VisionCard
