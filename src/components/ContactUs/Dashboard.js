@@ -31,10 +31,10 @@ class Dashboard extends Component {
           }}>Contact Us</div>
         </div>
         <div className="row">
-          <div className="col s10 m6">
+          <div className="col s12 m6">
             <ContactSummary />
           </div>
-          <div className="col s10 m5 offset-m1">
+          <div className="col s12 m6">
             <Forms />
           </div>
         </div>
