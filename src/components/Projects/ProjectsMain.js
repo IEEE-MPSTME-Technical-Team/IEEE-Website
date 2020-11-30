@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import PastEvents from './PastProjects';
 import UpComingEvents from './UpComingProjects';
 
-function EventsMain() {
+function EventsMain({ compeleted, ongoing }) {
     useEffect(() => {
+        // console.log(compeleted, ongoing)
         window.$('.slide-nav').on('click', function (e) {
             e.preventDefault();
             // get current slide
@@ -25,45 +26,43 @@ function EventsMain() {
                 }, 800);
             }
         });
-    })
+    }, [])
     return (
         <>
             <div className="slider__warpper">
-                <div className="flex__container flex--dialga flex--active" data-slide="1" style={{ overflowX: "hidden" }}>
-                    <div className="flex__item flex__item--left Projects_Left">
-                    <div className="flex__content">
-                        <p className="text--sub">IEEE MPSTME</p>
-                        <h1 className="text--big">Ongoing Projects</h1>
-                        <p className="text--normal">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                    </div>
-                    <p className="text__background">Ongoing</p>
-                    </div>
-                    <div className="flex__item flex__item--right Projects_Right"></div>
-                    {/* <img className="pokemon__img" src="https://lh3.googleusercontent.com/proxy/TWeJIT5--zilVt58aWjypiRSIMhV3g3OJ5cNwd4PyAB0rgqLNbkyY9V0KVnnvDgSa9FxulY69Fr_tMNzfH2FzLZ3NIjNayLAfGICK6DshRxXBKZvXcs_0Pk" /> */}
-                    <UpComingEvents />
-                </div>
-                <div className="flex__container flex--zekrom animate--start" data-slide="2" style={{ overflowX: "hidden" }}>
-                    <div className="flex__item flex__item--left Projects_Left">
+                <div className="flex__container flex--dialga flex--pikachu flex--active" data-slide="1" style={{overflowX:"hidden"}}>
+                    <div className="flex__item flex__item--left Events_Left Projects_Left">
                         <div className="flex__content">
-                        <p className="text--sub">IEEE MPSTME</p>
-                        <h1 className="text--big">Completed Projects</h1>
-                        <p className="text--normal">
+                            <p className="text--sub">IEEE MPSTME</p>
+                            <h1 className="flow-text" style={{fontWeight: "bold"}}>Upcoming Events</h1>
+                            <p className="text--normal">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
+                        </div>
+                        <p className="text__background">Upcoming</p>
                     </div>
-                    <p className="text__background">Completed</p>
+                    <div className="flex__item flex__item--right Events_Right projects_pro">
+                        <UpComingEvents ongoing={ongoing}/>
                     </div>
-                    <div className="flex__item flex__item--right Projects_Right"></div>
-                    {/* <img className="pokemon__img" src="https://s4.postimg.org/sa9dl4825/pilup.png" /> */}
-                        <PastEvents />
+                </div>
+                <div className="flex__container flex--zekrom flex--piplup animate--start" data-slide="2" style={{overflowX:"hidden"}}>
+                    <div className="flex__item flex__item--left Events_Left Projects_Left">
+                        <div className="flex__content">
+                            <p className="text--sub">IEEE MPSTME</p>
+                            <h1 className="flow-text" style={{fontWeight: "bold"}}>Past Events</h1>
+                            <p className="text--normal">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <p className="text__background">Past</p>
+                    </div>
+                    <div className="flex__item flex__item--right Events_Right Projects_Right projects_pro"><PastEvents completed={compeleted}/></div>
                 </div>
             </div>
 
             <div className="slider__navi">
-                <a href="#" className="slide-nav active" data-slide="1">pikachu</a>
-                <a href="#" className="slide-nav" data-slide="2">piplup</a>
+                <a href="#" className="slide-nav active" data-slide="1">Ongoing</a>
+                <a href="#" className="slide-nav" data-slide="2">Completed</a>
             </div>
         </>
     )

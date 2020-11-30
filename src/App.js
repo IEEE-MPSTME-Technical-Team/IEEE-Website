@@ -7,11 +7,13 @@ import Blogs from './views/Blogs'
 import Events from './views/Events'
 import Gallery from './views/Gallery'
 import ContactUs from './views/Contact'
+import MobileNav from './layout/MobileNav'
 
 const App = (props) => {
   return (
     <BrowserRouter>
       <div className="App">
+        <MobileNav />
         <Switch>
           <Route exact path='/' component={LandingPage} />
           <Route exact path='/about' component={About} />
