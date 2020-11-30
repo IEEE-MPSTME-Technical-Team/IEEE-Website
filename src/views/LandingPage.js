@@ -13,9 +13,10 @@ import mpstme4 from '../img/LandingPage/mpstme3.jpg'
 import ParallaxCard from '../components/LandingPage/ParallaxCard';
 import { Player } from 'video-react';
 import headvideo from '../img/LandingPage/LandingVideo.mp4'
-import poster from '../img/LandingPage/headimage.png'
 import Vision from '../components/LandingPage/VisionParallax'
 import Vision2 from '../components/LandingPage/VisionParallax2'
+import TestimonialPage from '../components/LandingPage/Testimonial'
+
 
 
 const LandingPage = () => {
@@ -48,8 +49,7 @@ const LandingPage = () => {
                                     <source src={headvideo} type='video/mp4' />
                                 </video>
                             </div>
-                            <div className="Vision">
-                                {/*<Grid container spacing={1}>
+                            {/*<Grid container spacing={1}>
                                     <Grid item xs={6}>
                                         <Vision></Vision>
                                     </Grid>
@@ -57,15 +57,20 @@ const LandingPage = () => {
                                     <Vision2></Vision2>
                                     </Grid>
                                 </Grid>*/}
-                                <div className="row">
-                                    <div className="col s12 m6">
-                                        <Vision></Vision>
-                                    </div>
-                                    <div className="col s12 m6">
-                                        <Vision2></Vision2>
-                                    </div>
+                            <div className="row">
+                                <div className="col s12 m6">
+                                    <Vision></Vision>
+                                </div>
+                                <div className="col s12 m6">
+                                    <Vision2></Vision2>
                                 </div>
                             </div>
+                        </div>
+
+                    </Grid>
+                    <Grid item xs={12}>
+                        <div className="LandingTestimonial">
+                            <TestimonialPage />
                         </div>
                     </Grid>
                     <Grid item xs={12} className="nav">
