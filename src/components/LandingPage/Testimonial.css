@@ -51,7 +51,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url("C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\LandingPage\sidearrow.png") no-repeat center center /
+  background: url("../../img/LandingPage/sidearrow.png") no-repeat center center /
     16px;
   width: 32px;
   height: 32px;
@@ -61,7 +61,7 @@
 
 .previousButton:hover,
 .nextButton:hover {
-  background: url("C:\Users\ishag\OneDrive\Documents\GitHub\IEEE-Website\src\img\LandingPage\sidearrow.png") no-repeat center center /
+  background: url("../../img/LandingPage/sidearrow.png") no-repeat center center /
     16px;
 }
 
