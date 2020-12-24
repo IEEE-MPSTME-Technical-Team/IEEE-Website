@@ -11,7 +11,7 @@ const About = () => {
             <div>
                 <div className="mainLand">
                     <Grid container spacing={40}>
-                        <Grid item xs={12} style={{ marginBottom: 70}}  className="landingContent">
+                        <Grid item xs={12} style={{ marginBottom: 70}}  className="aboutContent">
                             <AboutMain />
                         </Grid>
                         <Grid item xs={12} className="nav">
