@@ -21,7 +21,8 @@ const Landing_Carousel = () => {
     <animated.div
       key={key}
       class="bg"
-      style={{ ...props, backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)` }}
+      //style={{ ...props, backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)` }}
+      style={{ ...props, backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2Fbg-1.jpeg?alt=media&token=8897ddff-2f3a-4443-a46e-86f36edc086c)` }}
     />
   ))
 }
