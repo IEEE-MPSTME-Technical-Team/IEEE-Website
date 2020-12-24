@@ -49,7 +49,7 @@ class UsingBookletComponent extends Component  {
             // <div style={{objectFit:"cover", height:"25vh", width: "40vh"}}><img src={event1} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/></div>,
           // ]}
           pages={
-            this.props.completed && this.props.completed.map((d)=>{
+            this.props.ongoing && this.props.ongoing.map((d)=>{
               return (
                 <a href={d.Form} target="__blank" style={{objectFit:"cover", height:"25vh", width: "40vh"}}>
                   <img src={d.Image} style={{objectFit:"fill", height:"25vh", width: "40vh"}}/>

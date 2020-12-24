@@ -31,7 +31,7 @@ const Events = () => {
                 <Grid container spacing={3}>
                     <Grid item xs={12} className="landingContent">
                         {
-                            (compeleted || ongoing) && <EventMain compeleted={compeleted} ongoing={ongoing}/>
+                            (compeleted.length !== 0 || ongoing.length !== 0) && <EventMain compeleted={compeleted} ongoing={ongoing}/>
                         }
                     </Grid>
                     <Grid item xs={12} className="nav">

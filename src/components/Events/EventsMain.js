@@ -3,9 +3,9 @@ import PastEvents from './PastEvents';
 import UpComingEvents from './UpComingEvents';
 import Booklet from './Booklet';
 import PastEvents1 from './PastEvents1';
+import UpComingEvents1 from './UpComingEvents1';
 
-function EventsMain( compeleted, ongoing ) {
-
+function EventsMain( {compeleted, ongoing} ) {
     useEffect(()=>{
         window.$('.slide-nav').on('click', function(e) {
             e.preventDefault();
@@ -44,8 +44,7 @@ function EventsMain( compeleted, ongoing ) {
                         <p className="text__background">Upcoming</p>
                     </div>
                     <div className="flex__item flex__item--right Events_Right">
-                        <PastEvents1  />
-                         
+                        <UpComingEvents1 ongoing={[...ongoing]}/>
                     </div>
                     {/* <img className="pokemon__img" src="https://lh3.googleusercontent.com/proxy/TWeJIT5--zilVt58aWjypiRSIMhV3g3OJ5cNwd4PyAB0rgqLNbkyY9V0KVnnvDgSa9FxulY69Fr_tMNzfH2FzLZ3NIjNayLAfGICK6DshRxXBKZvXcs_0Pk" /> */}
                     {/* <UpComingEvents /> */}
@@ -63,7 +62,7 @@ function EventsMain( compeleted, ongoing ) {
                         <p className="text__background">Past</p>
                     </div>
                     <div className="flex__item flex__item--right Events_Right">
-                        <PastEvents1  />
+                        <PastEvents1 completed={compeleted}/>
                     </div>
                     {/* <img className="pokemon__img" src="https://s4.postimg.org/sa9dl4825/pilup.png" /> */}
                     {/* <PastEvents /> */}
