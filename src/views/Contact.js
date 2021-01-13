@@ -12,7 +12,7 @@ export default function Contact() {
                         <Dashboard />
                     </Grid>
                     <Grid item xs={12} className="nav">
-                        <SimpleBottomNavigation />
+                        <SimpleBottomNavigation value="6"/>
                     </Grid>
                 </Grid>
             </div>

@@ -4,33 +4,36 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "./slider-animations.css";
 import "./Testimonial.css";
+import HarinJoshi from "../../img/LandingPage/HarinJoshi.jpg"
+import HomiEution from "../../img/LandingPage/HomiEution.jpg"
+import Shourya from "../../img/LandingPage/Shourya.PNG"
 
 const content = [
   {
-    title: "Vulputate Mollis Ultricies Fermentum Parturient",
+    title: "AI&ML Demystified Workshop",
     description:
-      "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+      "I am excited to share that today I was Invited by IEEE NMIMS for the session on #machinelearning. I am really grateful to the team working behind this to make this event happen. The next two days are going to be very engaging for sure. I am very honored for the invitation by you guys for the 1st 3-days session on #artificialintelligence and #ml. I gave a brief introduction about Machine Learning and Interacted with this bunch of enthusiasts who are going to be future #engineers. Divy Otawat - You have managed everything very well.Kudos to you! Navin Agarwal- Thank you so much. Angad Singh Kataria and Isha Gupta, Meera Kapade, Shireen Chand, and all those who attended for being a fantastic audience.",
     background: "transparent",
-    user: "Luan Gjokaj",
-    userProfile: "https://i.imgur.com/JSW6mEk.png"
+    user: "Harin Joshi",
+    userProfile: HarinJoshi
   },
   {
-    title: "Tortor Dapibus Commodo Aenean Quam",
+    title: "AI&ML Demystified Workshop",
     description:
-      "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
+      "Congrats to all the candidates and organisers. A job well done! The IEEE NMIMS’s webinar series called AI & ML DeMystified provided a glimpse into the intricate world of AI & ML. The participants could also self assess their acquires knowledge. Session was an easy ride from an overview of core learning. The Kaggle Competition made everyone a keen competitor vying for the first place. Successful and highly decorated speakers like Dr. Shaunak De, Dr. Hemant Palivela and Mr. Ali Mustafa Shaikh took time out from their busy lives to share their knowledge! IEEE* is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. The IEEE committee of MPSTME represents the same.",
     button: "Discover",
     background: "transparent",
-    user: "Erich Behrens",
-    userProfile: "https://i.imgur.com/0Clfnu7.png"
+    user: "HomiEution",
+    userProfile: HomiEution
   },
   {
-    title: "Phasellus volutpat metus",
+    title: "AI&ML Demystified Workshop",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+      "Very interactive and hands-on experience. Well done!",
     button: "Buy now",
     background: "transparent",
-    user: "Bruno Vizovskyy",
-    userProfile: "https://i.imgur.com/4KeKvtH.png"
+    user: "Shouryadipta Birabar",
+    userProfile: Shourya
   }
 ];
 

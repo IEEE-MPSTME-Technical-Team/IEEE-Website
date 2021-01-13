@@ -34,7 +34,7 @@ const SimpleBottomNavigation = (props) => {
     return (
         <>
             <BottomNavigation
-                value={value}
+                value={props.value}
                 onChange={(event, newValue) => {
                     setValue(newValue);
                 }}
@@ -42,15 +42,15 @@ const SimpleBottomNavigation = (props) => {
                 className="bottomNavbar hide-on-small-only"
                 onClick={e => e.preventDefault()}
             >
-                <BottomNavigationAction component={Link} to='/about' label="About" icon={<AllOutIcon />} />
-                <BottomNavigationAction component={Link} to='/projects' label="Projects" icon={<AccountTreeIcon />} />
-                <BottomNavigationAction component={Link} to='/blogs' label="Blogs" icon={<BookIcon />} />
-                <Fab component={Link} to='/' className="floatBtn">
+                <BottomNavigationAction value="1" component={Link} to='/about' label="About" icon={<AllOutIcon />} />
+                <BottomNavigationAction value="2" component={Link} to='/projects' label="Projects" icon={<AccountTreeIcon />} />
+                <BottomNavigationAction value="3" component={Link} to='/blogs' label="Blogs" icon={<BookIcon />} />
+                <Fab value="0" component={Link} to='/' className="floatBtn">
                     <Avatar alt="IEEE logo" src={IEEElogo}/>
                 </Fab>
-                <BottomNavigationAction component={Link} to='/events' label="Events" icon={<EventIcon />} />
-                <BottomNavigationAction component={Link} to='/gallery' label="Gallery" icon={<BurstModeIcon />} />
-                <BottomNavigationAction component={Link} to='/contactus' label="Contact Us" icon={<FavoriteIcon />} />
+                <BottomNavigationAction value="4" component={Link} to='/events' label="Events" icon={<EventIcon />} />
+                <BottomNavigationAction value="5" component={Link} to='/gallery' label="Gallery" icon={<BurstModeIcon />} />
+                <BottomNavigationAction value="6" component={Link} to='/contactus' label="Contact Us" icon={<FavoriteIcon />} />
             </BottomNavigation>
         </>
     );

@@ -21,7 +21,7 @@ export default function Gallery() {
                         <GalleryMain />
                     </Grid>
                     <Grid item xs={12} className="nav">
-                        <SimpleBottomNavigation />
+                        <SimpleBottomNavigation value="5"/>
                     </Grid>
                 </Grid>
             </div>

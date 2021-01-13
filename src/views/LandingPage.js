@@ -46,7 +46,7 @@ const LandingPage = () => {
                         </div>
                     </Grid>
                     <Grid item xs={12} className="nav">
-                        <SimpleBottomNavigation />
+                        <SimpleBottomNavigation value="0"/>
                     </Grid>
                 </Grid>
             </div>

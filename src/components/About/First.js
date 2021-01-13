@@ -26,12 +26,12 @@ const First = () => {
                             <i className="material-icons right">close</i>
                         </span>
                         <p>
-                            IEEE MPSTME, a student chapter of IEEE, formed by the
+                            IEEE NMIMS, a student chapter of IEEE, formed by the
                             Undergraduates of MPSTME in 2017, is a student led organization that
                             strives to collaborate on world-changing technologies, from computing
                             and sustainable energy systems to aerospace, robotics, communication
                             and more. Over time it has grown into a community of more than 50
-                            members all from different course streams. We at IEEE MPSTME believe
+                            members all from different course streams. We at IEEE NMIMS believe
                             that there is a better way to share, gain and build up our knowledge about
                             the advancing technologies and the ways of a fast-moving and unstoppable generation.
                         </p>

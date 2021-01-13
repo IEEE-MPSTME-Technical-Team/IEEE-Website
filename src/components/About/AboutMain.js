@@ -41,7 +41,7 @@ export default function ProfilePage(props) {
                     <img src={logo} alt="IEEE Logo" className={imageClasses} />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title} style={{fontFamily:"'Lexend Deca', sans-serif", color:"black"}}>IEEE MPSTME</h3>
+                    <h3 className={classes.title} style={{fontFamily:"'Lexend Deca', sans-serif", color:"black"}}>IEEE NMIMS</h3>
                     <h6>About Us</h6>
                   </div>
                 </div>
