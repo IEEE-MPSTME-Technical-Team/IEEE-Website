@@ -32,13 +32,13 @@ function EventsMain( {compeleted, ongoing} ) {
     return (
         <>
             <div className="slider__warpper">
-                <div className="flex__container flex--pikachu flex--active" data-slide="1" style={{overflowX:"hidden"}}>
+                <div className="flex__container flex--piplup flex--active" data-slide="1" style={{overflowX:"hidden"}}>
                     <div className="flex__item flex__item--left Events_Left">
                         <div className="flex__content">
-                            <p className="text--sub">IEEE MPSTME</p>
+                            <p className="text--sub">IEEE NMIMS</p>
                             <h1 className="flow-text" style={{fontWeight: "bold"}}>Upcoming Events</h1>
                             <p className="text--normal">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Use the 'Next and 'Prev' buttons to navigate through the booklet. Clicking on any Event poster will redirect you to a page with further details.
                             </p>
                         </div>
                         <p className="text__background">Upcoming</p>
@@ -50,13 +50,13 @@ function EventsMain( {compeleted, ongoing} ) {
                     {/* <UpComingEvents /> */}
                     
                 </div>
-                <div className="flex__container flex--piplup animate--start" data-slide="2" style={{overflowX:"hidden"}}>
+                <div className="flex__container flex--dialga animate--start" data-slide="2" style={{overflowX:"hidden"}}>
                     <div className="flex__item flex__item--left Events_Left">
                         <div className="flex__content">
-                            <p className="text--sub">IEEE MPSTME</p>
+                            <p className="text--sub">IEEE NMIMS</p>
                             <h1 className="flow-text" style={{fontWeight: "bold"}}>Past Events</h1>
                             <p className="text--normal">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Use the 'Next and 'Prev' buttons to navigate through the booklet. Clicking on any Event poster will redirect you to a page with further details.
                             </p>
                         </div>
                         <p className="text__background">Past</p>

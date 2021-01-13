@@ -33,10 +33,10 @@ function EventsMain({ compeleted, ongoing }) {
                 <div className="flex__container flex--dialga flex--pikachu flex--active" data-slide="1" style={{overflowX:"hidden"}}>
                     <div className="flex__item flex__item--left Events_Left Projects_Left">
                         <div className="flex__content">
-                            <p className="text--sub">IEEE MPSTME</p>
+                            <p className="text--sub">IEEE NMIMS</p>
                             <h1 className="flow-text" style={{fontWeight: "bold"}}>Ongoing Projects</h1>
                             <p className="text--normal">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Swipe the cards to navigate through our projects. Double click on any Project card to find out more details.
                             </p>
                         </div>
                         <p className="text__background">Ongoing</p>
@@ -48,10 +48,10 @@ function EventsMain({ compeleted, ongoing }) {
                 <div className="flex__container flex--zekrom flex--piplup animate--start" data-slide="2" style={{overflowX:"hidden"}}>
                     <div className="flex__item flex__item--left Events_Left Projects_Left">
                         <div className="flex__content">
-                            <p className="text--sub">IEEE MPSTME</p>
+                            <p className="text--sub">IEEE NMIMS</p>
                             <h1 className="flow-text" style={{fontWeight: "bold"}}>Completed Projects</h1>
                             <p className="text--normal">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Swipe the cards to navigate through our projects. Double click on any Project card to find out more details.
                             </p>
                         </div>
                         <p className="text__background">Completed</p>
