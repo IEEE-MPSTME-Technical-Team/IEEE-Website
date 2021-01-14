@@ -3,7 +3,10 @@ import GridsC from './GridsC';
 import GridsH from './GridsH';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Carousel from './Carousel';
+import TechCarousel from './TechCarousel';
+import PRCarousel from './PRCarousel';
+import DCCarousel from './DCCarousel';
+import CRCarousel from './CRCarousel';
 
 
 
@@ -49,7 +52,7 @@ const AboutComponent = () => {
                             <h4>Technical Department</h4>
                         </span>
                     </div>
-                    <Carousel />
+                    <TechCarousel />
                     <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
                     </div>
                 </div>
@@ -63,7 +66,7 @@ const AboutComponent = () => {
                             <h4>Public Relations Department</h4>
                         </span>
                     </div>
-                    <Carousel />
+                    <PRCarousel />
                     <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
                     </div>
                 </div>
@@ -77,7 +80,7 @@ const AboutComponent = () => {
                             <h4>Digital Creatives Department</h4>
                         </span>
                     </div>
-                    <Carousel />
+                    <DCCarousel />
                     <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
                     </div>
                 </div>
@@ -91,7 +94,7 @@ const AboutComponent = () => {
                             <h4>Corporate Relations Department</h4>
                         </span>
                     </div>
-                    <Carousel />
+                    <CRCarousel />
                     <div className="card-panel teal" style={{borderRadius:"0 0 24px 24px"}}>
                     </div>
                 </div>
