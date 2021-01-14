@@ -3,9 +3,7 @@ import emailjs from 'emailjs-com';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './ContactusCard.css'
-import linkedin from '../../img/ContactUs/linkedin1.png';
-import facebook from '../../img/ContactUs/facebook2.png';
-import instagram from '../../img/ContactUs/instagram.png';
+
 AOS.init();
 
 class Forms extends Component {
@@ -91,14 +89,14 @@ class Forms extends Component {
           </div>
         </div>
         <p>For more updates on latest events, follow us on </p>
-        <img id="face" src={facebook} alt="IEEE NMIMS FACEBOOK" onClick={this.OpenInstagram} style={{
+        <img id="face" src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Contact%2FLogo%2Ffacebook2.png?alt=media&token=43f50e76-4b4f-4cd5-a83a-b3e045932d30" alt="IEEE NMIMS FACEBOOK" onClick={this.OpenInstagram} style={{
           height: "65px",
         }}>
         </img>
-        <img id="insta" src={instagram} alt="IEEE NMIMS INSTAGRAM" onClick={this.Openfacebook} style={{
+        <img id="insta" src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Contact%2FLogo%2Finstagram.png?alt=media&token=20fd57a6-c134-484e-8475-0a5e29472e5a" alt="IEEE NMIMS INSTAGRAM" onClick={this.Openfacebook} style={{
           height:"60px"
         }}/>
-        <img id="linked" src={linkedin} alt="IEEE NMIMS LINKEDIN" onClick={this.OpenLinkedin} style={{
+        <img id="linked" src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Contact%2FLogo%2Flinkedin1.png?alt=media&token=4d5cf22a-3d34-461f-a5c3-7adefa1646e8" alt="IEEE NMIMS LINKEDIN" onClick={this.OpenLinkedin} style={{
           height: "60px"
         }}/>
       </div>

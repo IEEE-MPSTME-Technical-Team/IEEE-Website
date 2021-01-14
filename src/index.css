@@ -264,6 +264,8 @@ awssld__container {
 
 .LandingTestimonial{
   margin-top: 58vh;
-  background-image: url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1063&q=80);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FTestimonial%2FPhoto%20from%20Angad%20Singh.jpg?alt=media&token=763c6659-13cc-4fe7-95f1-d769727200a1);
   margin-bottom: 10vh;
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
 }

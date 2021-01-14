@@ -51,7 +51,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url("../../img/LandingPage/sidearrow.png") no-repeat center center /
+  background: url("https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FTestimonial%2Fsidearrow.png?alt=media&token=39985246-c069-4a8a-96da-a8da503641df") no-repeat center center /
     16px;
   width: 32px;
   height: 32px;
@@ -61,7 +61,7 @@
 
 .previousButton:hover,
 .nextButton:hover {
-  background: url("../../img/LandingPage/sidearrow.png") no-repeat center center /
+  background: url("https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FTestimonial%2Fsidearrow.png?alt=media&token=39985246-c069-4a8a-96da-a8da503641df") no-repeat center center /
     16px;
 }
 

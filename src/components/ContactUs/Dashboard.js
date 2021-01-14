@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ContactSummary from './ContactSummary';
 import Forms from './Forms';
-import headvideo from '../../img/ContactUs/ContactBackground.mp4';
 class Dashboard extends Component {
   render() {
     return (
@@ -19,7 +18,7 @@ class Dashboard extends Component {
             zIndex: "-1",
             backgroundColor: "transparent"
           }}>
-            <source src={headvideo} type='video/mp4' />
+            <source src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Contact%2FVideo%2FContactBackground.mp4?alt=media&token=c8954f07-7b7a-485c-a1b2-a21109ec391a" type='video/mp4' />
           </video>
         </div>
         <div id="animated-gif-container">

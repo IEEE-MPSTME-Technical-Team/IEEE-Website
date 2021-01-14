@@ -4,9 +4,6 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "./slider-animations.css";
 import "./Testimonial.css";
-import HarinJoshi from "../../img/LandingPage/HarinJoshi.jpg"
-import HomiEution from "../../img/LandingPage/HomiEution.jpg"
-import Shourya from "../../img/LandingPage/Shourya.PNG"
 
 const content = [
   {
@@ -15,7 +12,7 @@ const content = [
       "I am excited to share that today I was Invited by IEEE NMIMS for the session on #machinelearning. I am really grateful to the team working behind this to make this event happen. The next two days are going to be very engaging for sure. I am very honored for the invitation by you guys for the 1st 3-days session on #artificialintelligence and #ml. I gave a brief introduction about Machine Learning and Interacted with this bunch of enthusiasts who are going to be future #engineers. Divy Otawat - You have managed everything very well.Kudos to you! Navin Agarwal- Thank you so much. Angad Singh Kataria and Isha Gupta, Meera Kapade, Shireen Chand, and all those who attended for being a fantastic audience.",
     background: "transparent",
     user: "Harin Joshi",
-    userProfile: HarinJoshi
+    userProfile: "https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FTestimonial%2FHarinJoshi.jpg?alt=media&token=4f7c11b4-0a72-40ad-825f-c75efe195a43"
   },
   {
     title: "AI&ML Demystified Workshop",
@@ -24,7 +21,7 @@ const content = [
     button: "Discover",
     background: "transparent",
     user: "HomiEution",
-    userProfile: HomiEution
+    userProfile: "https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FTestimonial%2FHomiEution.jpg?alt=media&token=969ce95f-87a1-46cf-a7ab-896a5d5dd990"
   },
   {
     title: "AI&ML Demystified Workshop",
@@ -33,7 +30,7 @@ const content = [
     button: "Buy now",
     background: "transparent",
     user: "Shouryadipta Birabar",
-    userProfile: Shourya
+    userProfile: "https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FTestimonial%2FShourya.PNG?alt=media&token=6ff296a8-7e91-4771-9dd9-fe6d16795d6a"
   }
 ];
 

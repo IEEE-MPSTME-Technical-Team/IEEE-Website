@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import team from '../../img/About/Angad.jpg'
-import mission from '../../img/About/Meera.jpg'
-import vision from '../../img/About/Rakshita.jpg'
-import hem from '../../img/About/Hem.jpg'
 
 const Grids = () => {
     useEffect(() => {
@@ -14,7 +10,7 @@ const Grids = () => {
         <div className="teamh">
             <div className="row">
                 <div className="col s12 l4 push-l7 offset-l1" data-aos="fade-up-left">
-                    <img src={team} alt="" className="responsive-img materialboxed" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FHeads%2FAngad.jpg?alt=media&token=e90e0209-35d7-4298-853c-17275a0c0261" alt="" className="responsive-img materialboxed" />
                 </div>
                 <div className="col s12 l6 pull-l6 right-align offset-l1" data-aos="fade-up-right">
                     <h2 className="indigo-text text-darken-4">Angad Singh Kataria</h2>
@@ -23,7 +19,7 @@ const Grids = () => {
             </div>
             <div className="row">
                 <div className="col s12 l4 push-l1" data-aos="fade-up-right">
-                    <img src={mission} alt="" className="responsive-img materialboxed" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FHeads%2FMeera.jpg?alt=media&token=e6670452-6b14-4999-8a17-f44459d009f1" alt="" className="responsive-img materialboxed" />
                 </div>
                 <div className="col s12 l6 left-align push-l1 offset-l1" data-aos="fade-up-left">
                     <h2 className="indigo-text text-darken-4">Meera Kapade</h2>
@@ -32,7 +28,7 @@ const Grids = () => {
             </div>
             <div className="row">
                 <div className="col s12 l4 push-l7 offset-l1" data-aos="fade-up-left">
-                    <img src={vision} alt="" className="responsive-img materialboxed" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FHeads%2FRakshita.jpg?alt=media&token=08a3d91b-cd60-4e8d-a90d-9f979ed6aeda" alt="" className="responsive-img materialboxed" />
                 </div>
                 <div className="col s12 l6 pull-l6 right-align offset-l1" data-aos="fade-up-right">
                     <h2 className="indigo-text text-darken-4">Rakshita Chawla</h2>
@@ -43,7 +39,7 @@ We are happy to have someone with an aesthetic vision like hers on our team!</p>
             </div>
             <div className="row">
                 <div className="col s12 l4 push-l1" data-aos="fade-up-right">
-                    <img src={hem} alt="" className="responsive-img materialboxed" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FHeads%2FHem.jpg?alt=media&token=6e04eabe-18fc-466d-ad9b-5a737a413291" alt="" className="responsive-img materialboxed" />
                 </div>
                 <div className="col s12 l6 left-align push-l1 offset-l1" data-aos="fade-up-left">
                     <h2 className="indigo-text text-darken-4">Hem Thakar</h2>

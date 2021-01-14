@@ -8,10 +8,6 @@ import GridContainer from "./GridContainer";
 import GridItem from "./GridItem";
 import Parallax from "./ParallaxMain";
 
-import logo from '../../img/IEEElogo.png';
-
-
-
 import styles from "../../assets/jss/material-kit-react/views/profilePage";
 
 // different components
@@ -38,7 +34,7 @@ export default function ProfilePage(props) {
               <GridItem xs={12} sm={12} md={6}>
                 <div className={classes.profile}>
                   <div>
-                    <img src={logo} alt="IEEE Logo" className={imageClasses} />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Logo%2FIEEElogo.png?alt=media&token=d3be202a-fe2d-4204-aea3-5e9d12ed1e81" alt="IEEE Logo" className={imageClasses} />
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title} style={{fontFamily:"'Lexend Deca', sans-serif", color:"black"}}>IEEE NMIMS</h3>

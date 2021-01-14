@@ -1,8 +1,6 @@
 import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
-import team from '../../img/About/team.png';
-import mission from '../../img/About/mission.png';
-import vision from '../../img/About/vision.png';
+
 
 const First = () => {
     return (
@@ -12,7 +10,7 @@ const First = () => {
                         <div className="card-image waves-effect waves-block waves-light"
                         style={{"borderRadius":"24px 24px 0 0"}}
                         >
-                        <img className="activator" src={ team } alt="cover"/>
+                        <img className="activator" src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FGoal%2Fteam.png?alt=media&token=3dda9aa9-c2f0-4203-b2dc-4535c69ea3ae" alt="cover"/>
                         </div>
                         <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">
@@ -43,7 +41,7 @@ const First = () => {
                         <div className="card-image waves-effect waves-block waves-light"
                         style={{"borderRadius":"24px 24px 0 0"}}
                         >
-                        <img className="activator" src={ vision } alt="cover"/>
+                        <img className="activator" src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FGoal%2Fvision.png?alt=media&token=8d7d3dc3-f7f2-4a6b-83df-5ce9648b2b4e" alt="cover"/>
                         </div>
                         <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">
@@ -69,7 +67,7 @@ const First = () => {
                         <div className="card-image waves-effect waves-block waves-light"
                         style={{"borderRadius":"24px 24px 0 0"}}
                         >
-                        <img className="activator" src={ mission } alt="cover"/>
+                        <img className="activator" src="https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/About%2FGoal%2Fmission.png?alt=media&token=8ba519f0-31d1-4eba-9299-7d1196c4798d" alt="cover"/>
                         </div>
                         <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">
