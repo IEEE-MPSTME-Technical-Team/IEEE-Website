@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { useTransition, animated, config } from 'react-spring'
 
 const slides = [
-  { id: 0, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FWEB_COV1.jpeg?alt=media&token=0e62d291-bba1-46db-8a1b-57706d3a9391' },
-  { id: 1, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FWEB_COV2.png?alt=media&token=4ff7312c-d67b-4fb2-94a4-8b223d1612da' },
-  { id: 2, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FWEB_COV3.png?alt=media&token=97941d21-6dbe-4dd6-8f62-b9f708c1ab10' },
-  { id: 3, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FWEB_COV5.jpeg?alt=media&token=a756106d-a7f8-489d-a335-c277e5626c23' },
-  { id: 4, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FWEB_COV6.jpeg?alt=media&token=e297783d-4299-4cc0-9338-cdc27da4f8b1' },
+  { id: 0, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FUNDay.jpg?alt=media&token=126b2649-51fb-45cb-9325-fd8ba9a334e3' },
+  { id: 1, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FVinodSir1.jpeg?alt=media&token=958f7243-0c8c-45f4-a39d-a796c8c2a5a7' },
+  { id: 2, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FIEEEDay.jpg?alt=media&token=e5367087-7884-4cbf-94eb-aeac813f94cb' },
+  { id: 3, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FAinalSir1.jpeg?alt=media&token=cf782256-dc93-4e72-bac6-dd26b39b3acd' },
+  { id: 4, url: 'https://firebasestorage.googleapis.com/v0/b/ieee-website-f4149.appspot.com/o/Landing%20Page%2FCarousel%2FAI%26ML.jpg?alt=media&token=6fa8161f-2902-4dc6-9c67-83e3e3f19521' },
+  
 ]
 
 const Landing_Carousel = () => {
